@@ -131,13 +131,11 @@ background-image: url(https://cdn.totalfratmove.com/wp-content/uploads/2018/03/2
   position:-webkit-sticky;
   top: 0;
   z-index: 3;
-  float:;
   background-color: none;
 }
 
 .nav2{
     float:left;
-    background-color: ;
     position:-webkit-sticky;
 
     display:block;
@@ -159,13 +157,11 @@ background-image: url(https://cdn.totalfratmove.com/wp-content/uploads/2018/03/2
     color:black;
     }
 
-  .glyphicon-envelope
+.glyphicon-envelope
   {
     float: right;
-    color:
   }
 
-}
 
 
 .navbar-nav .navbar-inverse .navbar-fixed-top .nav .navbar{
@@ -180,8 +176,6 @@ background-image: url(https://cdn.totalfratmove.com/wp-content/uploads/2018/03/2
   background-color: white;
   border-radius: 30px;
   opacity: .70;
-  width:
-
 }
 
 
@@ -195,8 +189,7 @@ h3
 {
   background-color: black;
   color: white;
-  opacity: 1
-
+  opacity: 1;
 }
 
 
@@ -215,8 +208,7 @@ h3
 
 .item
 {
-
-margin-left: 300px;
+  margin-left: 300px;
 }
 
 
@@ -224,16 +216,12 @@ margin-left: 300px;
 
 
 video{
-
  width: 50%;
 }
 
 #myVideo{
-
   display: block;
   margin: 0 auto;
-
-
 }
 
 
@@ -242,7 +230,7 @@ video{
 {
   position:relative;
   list-style:none;
-  float: left;
+  align-items: center;
 }
 
 .intinfo
@@ -250,6 +238,10 @@ video{
   float:left;
   font-style: none;
   font-size: 20px;
+}
+
+.intinfo a{
+  color: antiquewhite;
 }
 
 footer{
@@ -288,7 +280,7 @@ footer{
   @media screen and (min-width: 600px) {
     .intinfo {
       float:left;
-      padding-left: 150px;
       font-style: none;
       font-size: 20px;
     }
+}
